@@ -2,5 +2,14 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="mtrl_textinput_default_box_stroke_color" override="true">#FFFFFFFF</color>
+    <color name="rosa">#FF7597</color>
+    <color name="rojo">#FF0266</color>
+    <color name="aqua">#03DAC6</color>
+    <color name="azul">#49A9F2</color>
+    <color name="morado">#BB86FC</color>
+    <color name="gris1">#333333</color>
+    <color name="gris2">#666666</color>
+    <color name="gris3">#999999</color>
+    <color name="gris4">#cccccc</color>
+    <color name="mtrl_textinput_default_box_stroke_color" override="true">#BB86FC</color>
 </resources>
