@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Alarmax Pro</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="olvide_contrasena">OLVIDE CONTRASENA</string>
+    <string name="nuevo_usuario">NUEVO USUARIO</string>
+</resources>
