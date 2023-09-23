@@ -25,6 +25,14 @@
     <string name="days">Lu Ma Mi Ju Vi Sa Do</string>
     <string name="title2">Trabajo</string>
     <string name="title3">Clase de Maestria</string>
-    <string name="alarmastitle">  Alarmas</string>
+    <string name="alarmastitle">Alarmas</string>
+    <string name="detalleAlarma">Detalle de Alarma</string>
     <string name="opciones_de_alarma">Opciones de Alarma</string>
+    <string name="opciones">Opciones</string>
+    <string name="snooze">Snooze</string>
+    <string name="apagar">Apagar</string>
+    <string name="leer_texto">Leer Texto</string>
+    <string name="operacion_matematica">Operacion Matematica</string>
+    <string name="snoozes_antes_de_apagar">Snoozes antes de Apagar</string>
+    <string name="repetir_al_equivocarse">Repetir al Equivocarse</string>
 </resources>
