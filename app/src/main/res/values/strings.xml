@@ -35,4 +35,7 @@
     <string name="operacion_matematica">Operacion Matematica</string>
     <string name="snoozes_antes_de_apagar">Snoozes antes de Apagar</string>
     <string name="repetir_al_equivocarse">Repetir al Equivocarse</string>
+    <string name="editar_alarma">Editar Alarma</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
 </resources>

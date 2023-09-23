@@ -37,5 +37,20 @@
         <action
             android:id="@+id/action_mainMenu_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_mainMenu_to_editarAlarma"
+            app:destination="@id/editarAlarma" />
+    </fragment>
+    <fragment
+        android:id="@+id/editarAlarma"
+        android:name="com.alarmaxpro.myapplication.EditarAlarma"
+        android:label="fragment_editar_alarma"
+        tools:layout="@layout/fragment_editar_alarma" >
+        <action
+            android:id="@+id/action_editarAlarma_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_editarAlarma_to_mainMenu"
+            app:destination="@id/mainMenu" />
     </fragment>
 </navigation>
