@@ -6,8 +6,10 @@
     </style>
 
     <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
     <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
         <item name="boxStrokeColor">#FFFFFF</item>
         <item name="boxStrokeWidth">2.5dp</item>
     </style>
+
 </resources>

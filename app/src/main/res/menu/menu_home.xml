@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.alarmaxpro.myapplication.MainActivity">
+    <item
+        android:id="@+id/menu_alarmas"
+        android:icon="@drawable/baseline_star_border_24"
+        android:orderInCategory="100"
+        android:title="@string/alarmas"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_recordatorio"
+        android:icon="@drawable/baseline_notifications_24"
+        android:orderInCategory="100"
+        android:title="@string/recordatorios"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_dispositivos"
+        android:icon="@drawable/baseline_settings_24"
+        android:orderInCategory="100"
+        android:title="@string/dispositivos"
+        app:showAsAction="never" />
+</menu>
