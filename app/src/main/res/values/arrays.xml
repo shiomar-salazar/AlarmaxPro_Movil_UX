@@ -17,10 +17,10 @@
     </string-array>
 
     <string-array name="formatoFecha">
-        <item>DD-MES-AAAA</item>
         <item>DD-MM-AA</item>
-        <item>DD-MM-AAAA</item>
+        <item>DD/MM/AA</item>
         <item>MM-DD-AA</item>
+        <item>MM/DD/AA</item>
     </string-array>
 
     <string-array name="intensidad">

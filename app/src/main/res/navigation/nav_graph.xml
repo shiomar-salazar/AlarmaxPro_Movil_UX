@@ -25,6 +25,9 @@
         <action
             android:id="@+id/action_SecondFragment_to_mainMenu"
             app:destination="@id/mainMenu" />
+        <action
+            android:id="@+id/action_SecondFragment_to_configuraciones1"
+            app:destination="@id/configuraciones1" />
     </fragment>
     <fragment
         android:id="@+id/mainMenu"
@@ -58,6 +61,9 @@
         <action
             android:id="@+id/action_nuevaAlarma_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_nuevaAlarma_to_configuraciones1"
+            app:destination="@id/configuraciones1" />
     </fragment>
     <fragment
         android:id="@+id/editarAlarma"
@@ -70,6 +76,9 @@
         <action
             android:id="@+id/action_editarAlarma_to_mainMenu"
             app:destination="@id/mainMenu" />
+        <action
+            android:id="@+id/action_editarAlarma_to_configuraciones1"
+            app:destination="@id/configuraciones1" />
     </fragment>
     <fragment
         android:id="@+id/configuraciones1"

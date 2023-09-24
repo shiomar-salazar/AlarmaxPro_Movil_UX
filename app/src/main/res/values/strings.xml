@@ -22,7 +22,11 @@
     <string name="time1">05:00 A.M.</string>
     <string name="time2">06:00 A.M.</string>
     <string name="time3">05:00 P.M.</string>
-    <string name="days">Lu Ma Mi Ju Vi Sa Do</string>
+    <string name="days1_1">Lu Ma Mi Ju Vi</string>
+    <string name="days1_2">Sa Do</string>
+    <string name="days2_1">Lu</string>
+    <string name="days2_2">Ma Mi Ju</string>
+    <string name="days2_3">Vi</string>
     <string name="title2">Trabajo</string>
     <string name="title3">Clase de Maestria</string>
     <string name="alarmastitle">Alarmas</string>
@@ -49,4 +53,14 @@
     <string name="cofigurar_pantalla">Configurar Pantalla</string>
     <string name="restaurar_backup">Restaurar Backup</string>
     <string name="volumen_maestro">Volumen Maestro</string>
+    <string name="jueves">Jueves</string>
+    <string name="miercoles">Miercoles</string>
+    <string name="martes">Martes</string>
+    <string name="lunes">Lunes</string>
+    <string name="viernes">Viernes</string>
+    <string name="sabado">Sabado</string>
+    <string name="domingo">Domingo</string>
+    <string name="detalles">Detalles</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
 </resources>
