@@ -39,4 +39,14 @@
     <string name="aceptar">Aceptar</string>
     <string name="cancelar">Cancelar</string>
     <string name="nueva_alarma">Nueva Alarma</string>
+    <string name="configuraciones_title">Configuraciones</string>
+    <string name="formato_de_hora">Formato de Hora</string>
+    <string name="formato_de_fecha">Formato de Fecha</string>
+    <string name="ahorro_de_energia">Ahorro de Energia</string>
+    <string name="no_molestar">No Molestar</string>
+    <string name="notificacion_de_respaldo">Notificacion de Respaldo</string>
+    <string name="vibracion">Vibracion</string>
+    <string name="cofigurar_pantalla">Configurar Pantalla</string>
+    <string name="restaurar_backup">Restaurar Backup</string>
+    <string name="volumen_maestro">Volumen Maestro</string>
 </resources>

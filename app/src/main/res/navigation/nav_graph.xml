@@ -43,6 +43,9 @@
         <action
             android:id="@+id/action_mainMenu_to_nuevaAlarma"
             app:destination="@id/nuevaAlarma" />
+        <action
+            android:id="@+id/action_mainMenu_to_configuraciones1"
+            app:destination="@id/configuraciones1" />
     </fragment>
     <fragment
         android:id="@+id/nuevaAlarma"
@@ -67,5 +70,17 @@
         <action
             android:id="@+id/action_editarAlarma_to_mainMenu"
             app:destination="@id/mainMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/configuraciones1"
+        android:name="com.alarmaxpro.myapplication.configuraciones1"
+        android:label="fragment_configuraciones1"
+        tools:layout="@layout/fragment_configuraciones1" >
+        <action
+            android:id="@+id/action_configuraciones1_to_mainMenu"
+            app:destination="@id/mainMenu" />
+        <action
+            android:id="@+id/action_configuraciones1_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
     </fragment>
 </navigation>

@@ -42,14 +42,17 @@ class mainMenu : Fragment() {
             findNavController().navigate(com.alarmaxpro.myapplication.R.id.action_mainMenu_to_SecondFragment)
         }
 
-        binding.card2.setOnClickListener {
+        binding.plusBtn.setOnClickListener {
             findNavController().navigate(com.alarmaxpro.myapplication.R.id.action_mainMenu_to_nuevaAlarma)
         }
 
-        binding.plusBtn.setOnClickListener {
+        binding.card2.setOnClickListener {
             findNavController().navigate(com.alarmaxpro.myapplication.R.id.action_mainMenu_to_editarAlarma)
         }
 
+        binding.card3.setOnClickListener {
+            findNavController().navigate(com.alarmaxpro.myapplication.R.id.action_mainMenu_to_configuraciones1)
+        }
     }
 
     override fun onDestroyView() {
