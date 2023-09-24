@@ -27,17 +27,22 @@ class configuraciones1 : Fragment() {
         binding.spinner3.isEnabled=false
         binding.spinner3.isClickable=false
 
-        if (binding.checkbox4.isActivated){
-            binding.spinner3.isEnabled=true
-            binding.spinner3.isClickable=true
-        }
-
         binding.back.setOnClickListener {
             findNavController().navigate(com.alarmaxpro.myapplication.R.id.action_configuraciones1_to_mainMenu)
         }
 
         binding.btnCerrar.setOnClickListener {
             findNavController().navigate(com.alarmaxpro.myapplication.R.id.action_configuraciones1_to_FirstFragment)
+        }
+
+        binding.checkbox4.setOnClickListener{
+            if (binding.checkbox4.isChecked){
+                binding.spinner3.isEnabled=true
+                binding.spinner3.isClickable=true
+            } else {
+                binding.spinner3.isEnabled=false
+                binding.spinner3.isClickable=false
+            }
         }
 
     }

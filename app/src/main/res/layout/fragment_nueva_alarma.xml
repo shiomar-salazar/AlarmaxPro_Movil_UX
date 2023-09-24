@@ -113,10 +113,97 @@
             </com.google.android.material.card.MaterialCardView>
 
             <LinearLayout
-                android:id="@+id/line1"
+                android:id="@+id/toggleButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/cardTimePicker"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButtonToggleGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/button1"
+                        style="?attr/materialButtonOutlinedStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lunes"
+                        android:textColor="@color/gris4"
+                        app:strokeWidth="0dp" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        style="?attr/materialButtonOutlinedStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/martes"
+                        android:textColor="@color/gris4"
+                        app:strokeWidth="0dp" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        style="?attr/materialButtonOutlinedStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/miercoles"
+                        android:textColor="@color/gris4"
+                        app:strokeWidth="0dp" />
+                </com.google.android.material.button.MaterialButtonToggleGroup>
+
+                <com.google.android.material.button.MaterialButtonToggleGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/button4"
+                        style="?attr/materialButtonOutlinedStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jueves"
+                        android:textColor="@color/gris4"
+                        app:strokeWidth="0dp" />
+
+                    <Button
+                        android:id="@+id/button5"
+                        style="?attr/materialButtonOutlinedStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/viernes"
+                        android:textColor="@color/gris4"
+                        app:strokeWidth="0dp" />
+
+                    <Button
+                        android:id="@+id/button6"
+                        style="?attr/materialButtonOutlinedStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sabado"
+                        android:textColor="@color/gris4"
+                        app:strokeWidth="0dp" />
+                </com.google.android.material.button.MaterialButtonToggleGroup>
+
+                <com.google.android.material.button.MaterialButtonToggleGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/button7"
+                        style="?attr/materialButtonOutlinedStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/domingo"
+                        android:textColor="@color/gris4"
+                        app:strokeWidth="0dp" />
+                </com.google.android.material.button.MaterialButtonToggleGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toggleButton"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="25dp"
                 android:orientation="horizontal">
@@ -232,10 +319,11 @@
                         android:layout_alignParentEnd="true"
                         android:layout_gravity="center"
                         android:background="@android:drawable/btn_dropdown"
-                        android:backgroundTint="@color/gris2"
+                        android:backgroundTint="@color/black"
                         android:entries="@array/snoozes"
+                        android:popupBackground="@color/black"
                         android:spinnerMode="dropdown"
-                        android:textColor="@color/white" />
+                        android:theme="@style/spinnerTheme" />
 
                 </RelativeLayout>
             </LinearLayout>
@@ -271,10 +359,11 @@
                         android:layout_alignParentEnd="true"
                         android:layout_gravity="center"
                         android:background="@android:drawable/btn_dropdown"
-                        android:backgroundTint="@color/gris2"
+                        android:backgroundTint="@color/black"
                         android:entries="@array/repetir"
+                        android:popupBackground="@color/black"
                         android:spinnerMode="dropdown"
-                        android:textColor="@color/white" />
+                        android:theme="@style/spinnerTheme" />
 
                 </RelativeLayout>
             </LinearLayout>

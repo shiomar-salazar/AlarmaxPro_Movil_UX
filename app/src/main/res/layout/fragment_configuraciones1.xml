@@ -99,7 +99,7 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_centerVertical="true"
@@ -115,10 +115,11 @@
                         android:layout_alignParentEnd="true"
                         android:layout_gravity="center"
                         android:background="@android:drawable/btn_dropdown"
-                        android:backgroundTint="@color/gris2"
+                        android:backgroundTint="@color/black"
+                        android:popupBackground="@color/black"
                         android:entries="@array/formatoHora"
                         android:spinnerMode="dropdown"
-                        android:textColor="@color/white" />
+                        android:theme="@style/spinnerTheme" />
 
                 </RelativeLayout>
             </LinearLayout>
@@ -138,7 +139,7 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_centerVertical="true"
@@ -149,15 +150,16 @@
 
                     <Spinner
                         android:id="@+id/spinner2"
+                        android:dropDownWidth="wrap_content"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
-                        android:layout_gravity="center"
                         android:background="@android:drawable/btn_dropdown"
-                        android:backgroundTint="@color/gris2"
                         android:entries="@array/formatoFecha"
+                        android:backgroundTint="@color/black"
+                        android:popupBackground="@color/black"
                         android:spinnerMode="dropdown"
-                        android:textColor="@color/white" />
+                        android:theme="@style/spinnerTheme" />
 
                 </RelativeLayout>
             </LinearLayout>
@@ -177,25 +179,26 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_centerVertical="true"
-                        android:drawablePadding="10dp"
+                        android:layout_marginEnd="10dp"
                         android:text="@string/volumen_maestro"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
                     <com.google.android.material.slider.Slider
-                        android:layout_width="200dp"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
                         android:valueFrom="0.0"
                         android:valueTo="100.0"
+                        app:labelBehavior="gone"
                         app:thumbColor="@color/azul"
-                        app:trackColor="@color/gris4"
-                        app:trackColorActive="@color/azul" />
-
+                        app:tickColor="#13161d"
+                        app:trackColorActive="@color/azul"
+                        app:trackColorInactive="@color/gris4" />
                 </RelativeLayout>
             </LinearLayout>
 
@@ -282,10 +285,11 @@
                         android:layout_alignParentEnd="true"
                         android:layout_gravity="center"
                         android:background="@android:drawable/btn_dropdown"
-                        android:backgroundTint="@color/gris2"
+                        android:backgroundTint="@color/black"
+                        android:popupBackground="@color/black"
                         android:entries="@array/intensidad"
                         android:spinnerMode="dropdown"
-                        android:textColor="@color/white" />
+                        android:theme="@style/spinnerTheme" />
 
                 </RelativeLayout>
             </LinearLayout>
@@ -298,6 +302,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="15dp"
+                android:layout_marginBottom="30dp"
                 android:gravity="center"
                 android:orientation="vertical">
 
