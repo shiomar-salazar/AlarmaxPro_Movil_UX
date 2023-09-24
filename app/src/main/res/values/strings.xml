@@ -38,4 +38,5 @@
     <string name="editar_alarma">Editar Alarma</string>
     <string name="aceptar">Aceptar</string>
     <string name="cancelar">Cancelar</string>
+    <string name="nueva_alarma">Nueva Alarma</string>
 </resources>

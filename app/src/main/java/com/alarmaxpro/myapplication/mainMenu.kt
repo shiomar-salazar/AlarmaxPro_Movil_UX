@@ -46,6 +46,10 @@ class mainMenu : Fragment() {
             findNavController().navigate(com.alarmaxpro.myapplication.R.id.action_mainMenu_to_editarAlarma)
         }
 
+        binding.card3.setOnClickListener {
+            findNavController().navigate(com.alarmaxpro.myapplication.R.id.action_mainMenu_to_nuevaAlarma)
+        }
+
     }
 
     override fun onDestroyView() {

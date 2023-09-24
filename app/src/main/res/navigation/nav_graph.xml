@@ -40,6 +40,21 @@
         <action
             android:id="@+id/action_mainMenu_to_editarAlarma"
             app:destination="@id/editarAlarma" />
+        <action
+            android:id="@+id/action_mainMenu_to_nuevaAlarma"
+            app:destination="@id/nuevaAlarma" />
+    </fragment>
+    <fragment
+        android:id="@+id/nuevaAlarma"
+        android:name="com.alarmaxpro.myapplication.NuevaAlarma"
+        android:label="fragment_nueva_alarma"
+        tools:layout="@layout/fragment_nueva_alarma" >
+        <action
+            android:id="@+id/action_nuevaAlarma_to_mainMenu"
+            app:destination="@id/mainMenu" />
+        <action
+            android:id="@+id/action_nuevaAlarma_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
     </fragment>
     <fragment
         android:id="@+id/editarAlarma"
