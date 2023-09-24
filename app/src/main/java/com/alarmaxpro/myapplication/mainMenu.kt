@@ -43,11 +43,11 @@ class mainMenu : Fragment() {
         }
 
         binding.card2.setOnClickListener {
-            findNavController().navigate(com.alarmaxpro.myapplication.R.id.action_mainMenu_to_editarAlarma)
+            findNavController().navigate(com.alarmaxpro.myapplication.R.id.action_mainMenu_to_nuevaAlarma)
         }
 
-        binding.card3.setOnClickListener {
-            findNavController().navigate(com.alarmaxpro.myapplication.R.id.action_mainMenu_to_nuevaAlarma)
+        binding.plusBtn.setOnClickListener {
+            findNavController().navigate(com.alarmaxpro.myapplication.R.id.action_mainMenu_to_editarAlarma)
         }
 
     }
